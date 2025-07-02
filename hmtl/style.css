@@ -1,0 +1,447 @@
+/* --- Rodapé AD Sátão --- */
+.footer-adsatao {
+    background: #4f8d14;
+    color: #fff;
+    border-top: 3px solid #1ecb1e;
+    font-family: 'Arial', sans-serif;
+    margin-top: 0;
+}
+.footer-links, .footer-sub-links {
+    margin-top: 30px;
+    margin-bottom: 0.5rem;
+    font-size: 1.05rem;
+    letter-spacing: 0.5px;
+}
+.footer-link {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 8px;
+    transition: color 0.2s;
+    font-weight: 500;
+    font-size: 1rem;
+}
+.footer-link:hover {
+    color: #1ecb1e;
+    text-decoration: underline;
+}
+.footer-sep {
+    color: #1ecb1e;
+    margin: 0 6px;
+    font-weight: bold;
+}
+.footer-social {
+    margin-top: 60px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+.footer-social-link {
+    color: #fff;
+    font-size: 1.5rem;
+    margin: 0 10px;
+    transition: color 0.2s;
+    vertical-align: middle;
+}
+.footer-social-link:hover {
+    color: #1ecb1e;
+}
+.footer-copy {
+    color: #e0e0e0;
+    font-size: 0.95rem;
+    margin-top: 30px;
+}
+.footer-copy a {
+    color: #fff;
+    text-decoration: underline;
+    margin: 0 4px;
+}
+.footer-copy a:hover {
+    color: #1ecb1e;
+}
+/* --- Custom classes migrated from inline styles in home.html --- */
+.row-custom-bg-radius {
+    background: #f7f8fa !important;
+    border-radius: 10px !important;
+}
+.equipa-principal-title {
+    font-family: 'Orbitron', 'monospace', Arial, sans-serif !important;
+    font-size: 2rem !important;
+    letter-spacing: 1px !important;
+    color: #1a2947 !important;
+}
+.jogo-card {
+    min-width: 260px !important;
+    max-width: 320px !important;
+    border: 1px solid #eee !important;
+}
+.badge-custom {
+    font-size: 0.9rem !important;
+}
+.jogo-data {
+    font-size: 0.95rem !important;
+}
+.jogo-equipas {
+    gap: 18px !important;
+}
+.jogo-img-equipa {
+    height: 54px !important;
+}
+.jogo-equipas-nomes {
+    font-size: 1.1rem !important;
+}
+.btn-bilhetes-disabled {
+    background: #e0e0e0 !important;
+    color: #fff !important;
+    font-weight: bold !important;
+    cursor: not-allowed !important;
+}
+.jogadores-destaque-bg {
+    background: #5fa113 !important;
+}
+.jogadores-destaque-title {
+    color: #232524 !important;
+    font-family: 'Orbitron', 'monospace', Arial, sans-serif !important;
+    letter-spacing: 1px !important;
+    font-size: 3rem !important;
+    font-weight: 400 !important;
+    padding-bottom: 0 !important;
+    margin-bottom: 0 !important;
+    text-align: center !important;
+}
+.jogadores-destaque-card {
+    max-width: 420px !important;
+    background: transparent !important;
+    box-shadow: none !important;
+    padding: 0 !important;
+}
+.jogadores-destaque-img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    border-radius: 0 !important;
+    margin-bottom: 0 !important;
+    box-shadow: none !important;
+    display: block;
+}
+.jogadores-destaque-nomes {
+    font-size: 1.25rem !important;
+    color: #fff !important;
+    margin-bottom: 18px !important;
+    font-weight: 600 !important;
+    text-align: center !important;
+}
+.jogadores-destaque-btn {
+    background: #ffc107 !important;
+    color: #232524 !important;
+    font-weight: bold !important;
+    border-radius: 6px !important;
+    font-size: 1.1rem !important;
+    padding: 10px 32px !important;
+    margin-top: 10px !important;
+    box-shadow: none !important;
+}
+/* --- Secção Patrocinadores --- */
+.patrocinadores-bg {
+    background: #dfdfdf;
+    padding-top: 3.5rem;
+    padding-bottom: 3.5rem;
+}
+.patrocinadores-title {
+    color: #000000;
+    font-family: 'Oswald', 'Orbitron', Arial, sans-serif;
+    font-size: 2.7rem;
+    letter-spacing: 2px;
+    position: relative;
+    margin-bottom: 3rem;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+.patrocinadores-bar {
+    display: inline-block;
+    width: 48px;
+    height: 8px;
+    background: #1ecb1e;
+    border-radius: 4px;
+    margin-right: 18px;
+}
+.patrocinadores-row {
+    margin-bottom: 2.5rem;
+}
+.patrocinador-img-wrapper {
+    background: transparent;
+    border-radius: 16px;
+    padding: 18px;
+    transition: box-shadow 0.2s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.patrocinador-img {
+    max-width: 120px;
+    max-height: 120px;
+    width: 100%;
+    height: auto;
+    filter: grayscale(1) brightness(1.15) contrast(1.1);
+    opacity: 0.85;
+    transition: filter 0.3s, opacity 0.3s, transform 0.2s;
+    border-radius: 12px;
+}
+.patrocinador-img-wrapper:hover .patrocinador-img {
+    filter: none;
+    opacity: 1;
+    transform: scale(1.07);
+}
+.patrocinadores-btn {
+    background: #10c97c;
+    color: #fff;
+    font-weight: 600;
+    font-size: 1.1rem;
+    border-radius: 8px;
+    padding: 16px 64px;
+    border: none;
+    letter-spacing: 1px;
+    box-shadow: 0 2px 8px rgba(16,201,124,0.10);
+    transition: background 0.2s, color 0.2s, box-shadow 0.2s;
+}
+.patrocinadores-btn:hover {
+    background: #1ecb1e;
+    color: #232524;
+    box-shadow: 0 4px 16px rgba(16,201,124,0.18);
+}
+/* --- CSS migrado do HTML inline --- */
+.noticias-list-custom-height {
+    height: 320px !important;
+}
+.noticias-carousel-custom-height {
+    height: 320px !important;
+}
+.row-custom-bg-radius {
+    background: #f7f8fa !important;
+    border-radius: 10px !important;
+}
+.equipa-principal-title {
+    font-family: 'Orbitron', 'monospace', Arial, sans-serif !important;
+    font-size: 2rem !important;
+    letter-spacing: 1px !important;
+    color: #1a2947 !important;
+}
+.jogo-card {
+    min-width: 260px !important;
+    max-width: 320px !important;
+    border: 1px solid #eee !important;
+}
+.badge-custom {
+    font-size: 0.9rem !important;
+}
+.jogo-data {
+    font-size: 0.95rem !important;
+}
+.jogo-equipas {
+    gap: 18px !important;
+}
+.jogo-img-equipa {
+    height: 54px !important;
+}
+.jogo-equipas-nomes {
+    font-size: 1.1rem !important;
+}
+.btn-bilhetes-disabled {
+    background: #e0e0e0 !important;
+    color: #fff !important;
+    font-weight: bold !important;
+    cursor: not-allowed !important;
+}
+.classificacao-card {
+    border: 1px solid #eee !important;
+}
+.classificacao-links {
+    gap: 18px !important;
+}
+.classificacao-link {
+    font-size: 1rem !important;
+}
+.classificacao-item {
+    background: transparent !important;
+}
+.classificacao-item-destaque {
+    background: #4f8d14 !important;
+    border-radius: 6px !important;
+}
+.jogadores-destaque-bg {
+    background: #4f8d14 !important;
+}
+.jogadores-destaque-title {
+    color: #fff !important;
+    font-family: 'Orbitron', 'monospace', Arial, sans-serif !important;
+    letter-spacing: 1px !important;
+}
+.jogadores-destaque-card {
+    max-width: 420px !important;
+}
+.jogadores-destaque-img {
+    height: auto !important;
+    border-radius: 12px !important;
+    margin-bottom: 18px !important;
+}
+.jogadores-destaque-nomes {
+    font-size: 1.2rem !important;
+    color: #ffffff !important;
+}
+.jogadores-destaque-btn {
+    background: #ffc107 !important;
+    color: #1a2947 !important;
+    font-weight: bold !important;
+    border-radius: 6px !important;
+}
+/* Apenas ajustes mínimos, Bootstrap 5 cobre quase tudo */
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 1700px;
+}
+
+.offcanvas-title {
+    font-size: 2rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+hr[style*='#1ecb1e'] {
+    border-top: 2px solid #1ecb1e !important;
+    margin: 0 1rem 0 1rem;
+    border-radius: 2px;
+}
+.list-group-item {
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+.list-group-item:hover {
+    background: #f5f5f5;
+}
+
+.icon-green {
+    color: #1ecb1e;
+}
+
+.text-slider {
+    background-color: #f8f8f8; /* Cinzento claro */
+    padding: 10px;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+    height: 50px; /* Altura fixa para o contêiner */
+}
+
+/* Estilo para cada texto deslizante */
+.text-slider div {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    opacity: 0; /* Inicia invisível */
+    transform: translateY(-100%); /* Começa acima do contêiner */
+    animation: slide 15s linear infinite; /* Animação de 30s (10s por texto) */
+}
+
+/* Atrasos para cada texto */
+.text-slider div:nth-child(1) {
+    animation-delay: 0s; /* Texto 1 começa imediatamente */
+}
+.text-slider div:nth-child(2) {
+    animation-delay: 5s; /* Texto 2 começa após 10s */
+}
+.text-slider div:nth-child(3) {
+    animation-delay: 10s; /* Texto 3 começa após 20s */
+}
+
+/* Definição da animação de deslize vertical */
+@keyframes slide {
+    0% {
+        opacity: 0;
+        transform: translateY(-100%); /* Começa acima */
+    }
+    5% {
+        opacity: 1;
+        transform: translateY(0); /* Aparece no centro rapidamente */
+    }
+    30% {
+        opacity: 1;
+        transform: translateY(0); /* Permanece visível */
+    }
+    35% {
+        opacity: 0;
+        transform: translateY(100%); /* Desce e desaparece rapidamente */
+    }
+    100% {
+        opacity: 0;
+        transform: translateY(100%); /* Permanece invisível */
+    }
+}
+
+.noticias-section {
+    min-height: 220px;
+    margin-right: 0;
+    margin-left: 0;
+}
+.noticias-list, .noticias-carousel {
+    background: #000;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+    padding: 0;
+    height: 400px;      /* <-- Aumente aqui para mudar a altura do bloco */
+    min-height: 500px;  /* <-- Aumente aqui para mudar a altura mínima do bloco */
+    position: relative;
+}
+.noticia-img-wrapper {
+    position: relative;
+    width: 100%;
+    height: 500px;      /* <-- Aumente aqui para mudar a altura da imagem */
+    min-height: 400px;  /* <-- Aumente aqui para mudar a altura mínima da imagem */
+    overflow: hidden;
+}
+.noticia-img-wrapper img {
+    width: 100%;
+    height: 100%;       /* <-- Mantém a imagem a ocupar todo o wrapper */
+    min-height: 400px;  /* <-- Aumente aqui para garantir altura mínima da imagem */
+    object-fit: cover;
+    display: block;
+}
+.noticia-overlay {
+    position: absolute;
+    left: 0; right: 0; bottom: 0; top: 0;
+    background: linear-gradient(180deg,rgba(0,0,0,0.2) 40%,rgba(0,0,0,0.7) 100%);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 32px 24px 24px 24px;
+}
+.noticia-esq, .noticia-dir {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    opacity: 0;
+    transition: all 0.7s cubic-bezier(.4,2,.6,1);
+}
+.noticia-esq-active {
+    opacity: 1;
+    top: 0;
+    z-index: 2;
+    animation: slideUp 0.7s;
+}
+.noticia-dir-active {
+    opacity: 1;
+    left: 0;
+    z-index: 2;
+    animation: slideRight 0.7s;
+}
+@keyframes slideUp {
+    from { top: 40px; opacity: 0; }
+    to { top: 0; opacity: 1; }
+}
+@keyframes slideRight {
+    from { left: -40px; opacity: 0; }
+    to { left: 0; opacity: 1; }
+}
