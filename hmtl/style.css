@@ -1,0 +1,1016 @@
+/* =============================
+   MINI CLASSES PARA BILHETES
+   Usadas para substituir style="min-height:70vh;", style="max-width: 500px; margin: 0 auto;", style="width: 4rem; height: 4rem;" em bilhetes.html
+============================= */
+.bilhetes-minheight {
+    min-height: 70vh !important;
+}
+.bilhetes-maxwidth {
+    max-width: 500px !important;
+    margin: 0 auto !important;
+}
+.bilhetes-spinner {
+    width: 4rem !important;
+    height: 4rem !important;
+}
+/* =============================
+   MINI CLASSES PARA JOGADOR
+   Usadas para substituir style="max-width:950px;", style="object-fit:cover;", style="font-size:2.3rem;" em jogador.html
+============================= */
+.jogador-maxwidth {
+    max-width: 950px !important;
+}
+.jogador-img-cover {
+    object-fit: cover !important;
+}
+.jogador-title {
+    font-size: 2.3rem !important;
+}
+/* =============================
+   MINI CLASSES PARA NOTICIA
+   Usadas para substituir style="font-size:2.2rem;line-height:1.1;" e style="object-fit:cover;" em noticia.html
+============================= */
+.noticia-title {
+    font-size: 2.2rem !important;
+    line-height: 1.1 !important;
+}
+.noticia-img-cover {
+    object-fit: cover !important;
+}
+/* =============================
+   MINI CLASSES PARA PRODUTO
+   Usadas para substituir style="object-fit:contain;", style="width:70px;height:70px;object-fit:cover;cursor:pointer;", style="height:160px;object-fit:cover;" em produto.html
+============================= */
+.produto-img-contain {
+    object-fit: contain !important;
+}
+.produto-img-thumb {
+    width: 70px !important;
+    height: 70px !important;
+    object-fit: cover !important;
+    cursor: pointer !important;
+}
+.produto-img-card {
+    height: 160px !important;
+    object-fit: cover !important;
+}
+/* =============================
+   MINI CLASSES PARA LOJA
+   Usadas para substituir style="font-weight:400;" em loja.html
+============================= */
+.loja-fw {
+    font-weight: 400 !important;
+}
+/* =============================
+   MINI CLASSES PARA NOTÍCIAS
+   Usadas para substituir style="max-width:1100px;" em noticias.html, loja.html, produto.html
+============================= */
+.noticias-maxwidth {
+    max-width: 1100px !important;
+}
+/* =============================
+   MINI CLASSES PARA TERMOS E POLÍTICA
+   Usadas para substituir style="max-width:900px;" e style="line-height:1.1;" em termos.html, politica.html, contactos.html
+============================= */
+.termos-maxwidth {
+    max-width: 900px !important;
+}
+.termos-lh {
+    line-height: 1.1 !important;
+}
+/* =============================
+   MINI CLASSES PARA IMAGENS DE CLASSIFICAÇÃO (TABELA)
+   Usadas para substituir style="height:32px;vertical-align:middle;margin-right:10px;" em classificacao.html
+============================= */
+.classificacao-img-tabela {
+    height: 32px !important;
+    margin-right: 10px !important;
+    vertical-align: middle !important;
+}
+/* =============================
+   MINI CLASSES PARA IMAGENS DE CLASSIFICAÇÃO
+   Usadas para substituir inline style="height: 22px; margin-right: 6px;" em home.html e outros
+============================= */
+.classificacao-img-mini {
+    height: 22px !important;
+    margin-right: 6px !important;
+    vertical-align: middle !important;
+}
+
+/*
+   Adicione outras mini-classes semelhantes para outros tamanhos de imagens de classificação se necessário
+*/
+.tabela-class {
+    margin-bottom: 60px;
+}
+
+.classificacao-tabela tr {
+    height: 64px;
+    min-height: 64px;
+}
+.classificacao-tabela tbody tr:nth-child(1) {
+    background: #f5f5f5 !important;
+}
+.classificacao-tabela tbody tr:nth-child(2) {
+    background: #fff !important;
+}
+.classificacao-tabela tbody tr:nth-child(3) {
+    background: #ededed !important;
+}
+.classificacao-tabela tbody tr:nth-child(4) {
+    background: #fff !important;
+}
+.classificacao-tabela tbody tr:nth-child(5) {
+    background: #f5f5f5 !important;
+}
+.classificacao-tabela tbody tr:nth-child(6) {
+    background: #fff !important;
+}
+.classificacao-tabela tbody tr:nth-child(7) {
+    background: #ededed !important;
+}
+.classificacao-tabela tbody tr:nth-child(8) {
+    background: #fff !important;
+}
+/* Tabela de classificação personalizada */
+.classificacao-tabela {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 16px rgba(0,0,0,0.04);
+    font-family: 'Inter', Arial, sans-serif;
+    min-width: 700px;
+}
+.classificacao-tabela th {
+    font-weight: 600;
+    font-size: 1.1rem;
+    color: #222;
+    background: #fff;
+    border-bottom: 2px solid #eee !important;
+}
+.classificacao-tabela td {
+    font-size: 1.05rem;
+    color: #222;
+    background: #fff;
+    vertical-align: middle;
+    border-top: none;
+    border-bottom: 1px solid #f2f2f2;
+}
+.classificacao-tabela tr.classificacao-topo {
+    border-left: 6px solid #008000;
+    background: #fffbe6;
+}
+.classificacao-legenda-yellow {
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    background: #008000;
+    border-radius: 3px;
+    margin-right: 6px;
+    border: 1px solid #e0e0e0;
+    vertical-align: middle;
+}
+@media (max-width: 900px) {
+    .classificacao-tabela {
+        min-width: 400px;
+        font-size: 0.95rem;
+    }
+    .classificacao-tabela th, .classificacao-tabela td {
+        font-size: 0.95rem;
+    }
+}
+@media (max-width: 600px) {
+    .classificacao-tabela {
+        min-width: unset;
+        font-size: 0.9rem;
+    }
+    .classificacao-tabela th, .classificacao-tabela td {
+        font-size: 0.9rem;
+    }
+}
+/* Alinha os cards com a barra verde acima (largura igual à barra-verde) */
+.align-barra-verde {
+    max-width: 60%;
+    min-width: 240px;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+@media (max-width: 600px) {
+    .align-barra-verde {
+        max-width: 95vw;
+        min-width: unset;
+    }
+}
+/* Menos espaçamento entre os cards de jogador */
+.jogadores-row {
+    --bs-gutter-x: 1rem;
+    --bs-gutter-y: 1.2rem;
+    margin-top: 0.5rem !important;
+    margin-bottom: 2.2rem !important;
+}
+/* Card de jogador estilo "plantel" */
+/* Cards de jogador mais pequenos e responsivos */
+.jogador-card {
+    background: #fff;
+    border-radius: 0;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.07);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    max-width: 220px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.jogador-img-wrapper {
+    background: #f5f5f5;
+    width: 100%;
+    aspect-ratio: 1/1.15;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    overflow: hidden;
+    min-height: 180px;
+}
+.jogador-img-wrapper img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    display: block;
+}
+.jogador-nome {
+    font-family: 'Orbitron', Arial, sans-serif;
+    font-size: 1.1rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #111;
+    text-transform: uppercase;
+}
+.jogador-numero {
+    font-family: 'Orbitron', Arial, sans-serif;
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #111;
+}
+.jogador-pais {
+    font-size: 0.85rem;
+    color: #222;
+    font-family: 'Arial', sans-serif;
+    text-transform: uppercase;
+}
+.jogador-sigla {
+    font-size: 0.85rem;
+    color: #222;
+    font-family: 'Arial', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.jogador-card hr {
+    border-top: 2px solid #111;
+    opacity: 1;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+@media (max-width: 900px) {
+    .jogador-card {
+        max-width: 170px;
+    }
+    .jogador-img-wrapper {
+        min-height: 120px;
+    }
+    .jogador-nome, .jogador-numero {
+        font-size: 0.95rem;
+    }
+    .jogador-pais, .jogador-sigla {
+        font-size: 0.75rem;
+    }
+}
+@media (max-width: 600px) {
+    .jogador-card {
+        max-width: 95vw;
+    }
+    .jogador-img-wrapper {
+        min-height: 80px;
+    }
+    .jogador-nome, .jogador-numero {
+        font-size: 0.85rem;
+    }
+    .jogador-pais, .jogador-sigla {
+        font-size: 0.7rem;
+    }
+}
+/* Barra retangular verde para títulos de secção (ex: GUARDA-REDES) */
+.barra-verde {
+    width: 60%;
+    min-width: 240px;
+    margin: 32px auto 24px auto;
+    background: #008000;
+    color: #fff;
+    font-family: 'Orbitron', Arial, sans-serif;
+    font-size: 1.4rem;
+    font-weight: 500;
+    padding: 18px 0 14px 0;
+    border-radius: 0;
+    letter-spacing: 1px;
+    text-align: center;
+    box-shadow: none;
+}
+@media (max-width: 600px) {
+    .barra-verde {
+        font-size: 1rem;
+        width: 95vw;
+        min-width: unset;
+        padding: 10px 0 8px 0;
+    }
+}
+/* --- Rodapé AD Sátão --- */
+.footer-adsatao {
+    background: #008000;
+    color: #fff;
+    border-top: 3px solid #1ecb1e;
+    font-family: 'Arial', sans-serif;
+    margin-top: 0;
+}
+.footer-links, .footer-sub-links {
+    margin-top: 30px;
+    margin-bottom: 0.5rem;
+    font-size: 1.05rem;
+    letter-spacing: 0.5px;
+}
+.footer-link {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 8px;
+    transition: color 0.2s;
+    font-weight: 500;
+    font-size: 1rem;
+}
+.footer-link:hover {
+    color: #c0c0c0;
+    text-decoration: underline;
+}
+.footer-sep {
+    color: #1ecb1e;
+    margin: 0 6px;
+    font-weight: bold;
+}
+.footer-social {
+    margin-top: 60px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+.footer-social-link {
+    color: #fff;
+    font-size: 1.5rem;
+    margin: 0 10px;
+    transition: color 0.2s;
+    vertical-align: middle;
+}
+.footer-social-link:hover {
+    color: #1ecb1e;
+}
+.footer-copy {
+    color: #e0e0e0;
+    font-size: 0.95rem;
+    margin-top: 30px;
+}
+.footer-copy a {
+    color: #fff;
+    text-decoration: underline;
+    margin: 0 4px;
+}
+.footer-copy a:hover {
+    color: #1ecb1e;
+}
+/* --- Custom classes migrated from inline styles in home.html --- */
+.row-custom-bg-radius {
+    background: #f7f8fa !important;
+    border-radius: 10px !important;
+}
+.equipa-principal-title {
+    font-family: 'Orbitron', 'monospace', Arial, sans-serif !important;
+    font-size: 2rem !important;
+    letter-spacing: 1px !important;
+    color: #1a2947 !important;
+}
+.jogo-card {
+    min-width: 260px !important;
+    max-width: 320px !important;
+    border: 1px solid #eee !important;
+}
+.badge-custom {
+    font-size: 0.9rem !important;
+}
+.jogo-data {
+    font-size: 0.95rem !important;
+}
+.jogo-equipas {
+    gap: 18px !important;
+}
+.jogo-img-equipa {
+    height: 54px !important;
+}
+.jogo-equipas-nomes {
+    font-size: 1.1rem !important;
+}
+.btn-bilhetes-disabled {
+    background: #e0e0e0 !important;
+    color: #fff !important;
+    font-weight: bold !important;
+    cursor: not-allowed !important;
+}
+.jogadores-destaque-bg {
+    background: #008000 !important;
+}
+.jogadores-destaque-title {
+    color: #232524 !important;
+    font-family: 'Orbitron', 'monospace', Arial, sans-serif !important;
+    letter-spacing: 1px !important;
+    font-size: 3rem !important;
+    font-weight: 400 !important;
+    padding-bottom: 0 !important;
+    margin-bottom: 0 !important;
+    text-align: center !important;
+}
+.jogadores-destaque-card {
+    max-width: 420px !important;
+    background: transparent !important;
+    box-shadow: none !important;
+    padding: 0 !important;
+}
+.jogadores-destaque-img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    border-radius: 0 !important;
+    margin-bottom: 0 !important;
+    box-shadow: none !important;
+    display: block;
+}
+.jogadores-destaque-nomes {
+    font-size: 1.25rem !important;
+    color: #fff !important;
+    margin-bottom: 18px !important;
+    font-weight: 600 !important;
+    text-align: center !important;
+}
+.jogadores-destaque-btn {
+    background: #ffc107 !important;
+    color: #232524 !important;
+    font-weight: bold !important;
+    border-radius: 6px !important;
+    font-size: 1.1rem !important;
+    padding: 10px 32px !important;
+    margin-top: 10px !important;
+    box-shadow: none !important;
+}
+/* --- Secção Patrocinadores --- */
+.patrocinadores-bg {
+    background: #dfdfdf;
+    padding-top: 3.5rem;
+    padding-bottom: 3.5rem;
+}
+.patrocinadores-title {
+    color: #000000;
+    font-family: 'Oswald', 'Orbitron', Arial, sans-serif;
+    font-size: 2.7rem;
+    letter-spacing: 2px;
+    position: relative;
+    margin-bottom: 3rem;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+.patrocinadores-bar {
+    display: inline-block;
+    width: 48px;
+    height: 8px;
+    background: #008000;
+    border-radius: 4px;
+    margin-right: 18px;
+}
+.patrocinadores-row {
+    margin-bottom: 2.5rem;
+}
+.patrocinador-img-wrapper {
+    background: transparent;
+    border-radius: 16px;
+    padding: 18px;
+    transition: box-shadow 0.2s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.patrocinador-img {
+    max-width: 120px;
+    max-height: 120px;
+    width: 100%;
+    height: auto;
+    filter: grayscale(1) brightness(1.15) contrast(1.1);
+    opacity: 0.85;
+    transition: filter 0.3s, opacity 0.3s, transform 0.2s;
+    border-radius: 12px;
+}
+.patrocinador-img-wrapper:hover .patrocinador-img {
+    filter: none;
+    opacity: 1;
+    transform: scale(1.07);
+}
+.patrocinadores-btn {
+    background: #10c97c;
+    color: #fff;
+    font-weight: 600;
+    font-size: 1.1rem;
+    border-radius: 8px;
+    padding: 16px 64px;
+    border: none;
+    letter-spacing: 1px;
+    box-shadow: 0 2px 8px rgba(16,201,124,0.10);
+    transition: background 0.2s, color 0.2s, box-shadow 0.2s;
+}
+.patrocinadores-btn:hover {
+    background: #008000;
+    color: #ffffff;
+    box-shadow: 0 4px 16px rgba(16,201,124,0.18);
+}
+/* --- CSS migrado do HTML inline --- */
+.noticias-list-custom-height {
+    height: 320px !important;
+}
+.noticias-carousel-custom-height {
+    height: 320px !important;
+}
+.row-custom-bg-radius {
+    background: #f7f8fa !important;
+    border-radius: 10px !important;
+}
+.equipa-principal-title {
+    font-family: 'Orbitron', 'monospace', Arial, sans-serif !important;
+    font-size: 2rem !important;
+    letter-spacing: 1px !important;
+    color: #1a2947 !important;
+}
+.jogo-card {
+    min-width: 260px !important;
+    max-width: 320px !important;
+    border: 1px solid #eee !important;
+}
+.badge-custom {
+    font-size: 0.9rem !important;
+}
+.jogo-data {
+    font-size: 0.95rem !important;
+}
+.jogo-equipas {
+    gap: 18px !important;
+}
+.jogo-img-equipa {
+    height: 54px !important;
+}
+.jogo-equipas-nomes {
+    font-size: 1.1rem !important;
+}
+.btn-bilhetes-disabled {
+    background: #e0e0e0 !important;
+    color: #fff !important;
+    font-weight: bold !important;
+    cursor: not-allowed !important;
+}
+.classificacao-card {
+    border: 1px solid #eee !important;
+}
+.classificacao-links {
+    gap: 18px !important;
+}
+.classificacao-link {
+    font-size: 1rem !important;
+}
+.classificacao-item {
+    background: transparent !important;
+}
+.classificacao-item-destaque {
+    background: #008000 !important;
+    border-radius: 6px !important;
+}
+.jogadores-destaque-bg {
+    background: #008000 !important;
+}
+.jogadores-destaque-title {
+    color: #fff !important;
+    font-family: 'Orbitron', 'monospace', Arial, sans-serif !important;
+    letter-spacing: 1px !important;
+}
+.jogadores-destaque-card {
+    max-width: 420px !important;
+}
+.jogadores-destaque-img {
+    height: auto !important;
+    border-radius: 12px !important;
+    margin-bottom: 18px !important;
+}
+.jogadores-destaque-nomes {
+    font-size: 1.2rem !important;
+    color: #ffffff !important;
+}
+.jogadores-destaque-btn {
+    background: #ffc107 !important;
+    color: #1a2947 !important;
+    font-weight: bold !important;
+    border-radius: 6px !important;
+}
+/* Apenas ajustes mínimos, Bootstrap 5 cobre quase tudo */
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 1700px;
+}
+
+.offcanvas-title {
+    font-size: 2rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+hr[style*='#1ecb1e'] {
+    border-top: 2px solid #008000 !important;
+    margin: 0 1rem 0 1rem;
+    border-radius: 2px;
+}
+.list-group-item {
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+.list-group-item:hover {
+    background: #f5f5f5;
+}
+
+.icon-green {
+    color: #008000;
+}
+
+.text-slider {
+    background-color: #f8f8f8; /* Cinzento claro */
+    padding: 10px;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+    height: 50px; /* Altura fixa para o contêiner */
+}
+
+/* Estilo para cada texto deslizante */
+.text-slider div {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    opacity: 0; /* Inicia invisível */
+    transform: translateY(-100%); /* Começa acima do contêiner */
+    animation: slide 15s linear infinite; /* Animação de 30s (10s por texto) */
+}
+
+/* Atrasos para cada texto */
+.text-slider div:nth-child(1) {
+    animation-delay: 0s; /* Texto 1 começa imediatamente */
+}
+.text-slider div:nth-child(2) {
+    animation-delay: 5s; /* Texto 2 começa após 10s */
+}
+.text-slider div:nth-child(3) {
+    animation-delay: 10s; /* Texto 3 começa após 20s */
+}
+
+/* Definição da animação de deslize vertical */
+@keyframes slide {
+    0% {
+        opacity: 0;
+        transform: translateY(-100%); /* Começa acima */
+    }
+    5% {
+        opacity: 1;
+        transform: translateY(0); /* Aparece no centro rapidamente */
+    }
+    30% {
+        opacity: 1;
+        transform: translateY(0); /* Permanece visível */
+    }
+    35% {
+        opacity: 0;
+        transform: translateY(100%); /* Desce e desaparece rapidamente */
+    }
+    100% {
+        opacity: 0;
+        transform: translateY(100%); /* Permanece invisível */
+    }
+}
+
+.noticias-section {
+    min-height: 220px;
+    margin-right: 0;
+    margin-left: 0;
+}
+.noticias-list, .noticias-carousel {
+    background: #000;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+    padding: 0;
+    height: 400px;      /* <-- Aumente aqui para mudar a altura do bloco */
+    min-height: 500px;  /* <-- Aumente aqui para mudar a altura mínima do bloco */
+    position: relative;
+}
+.noticia-img-wrapper {
+    position: relative;
+    width: 100%;
+    height: 500px;      /* <-- Aumente aqui para mudar a altura da imagem */
+    min-height: 400px;  /* <-- Aumente aqui para mudar a altura mínima da imagem */
+    overflow: hidden;
+}
+.noticia-img-wrapper img {
+    width: 100%;
+    height: 100%;       /* <-- Mantém a imagem a ocupar todo o wrapper */
+    min-height: 400px;  /* <-- Aumente aqui para garantir altura mínima da imagem */
+    object-fit: cover;
+    display: block;
+}
+.noticia-overlay {
+    position: absolute;
+    left: 0; right: 0; bottom: 0; top: 0;
+    background: linear-gradient(180deg,rgba(0,0,0,0.2) 40%,rgba(0,0,0,0.7) 100%);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 32px 24px 24px 24px;
+}
+.noticia-esq, .noticia-dir {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    opacity: 0;
+    transition: all 0.7s cubic-bezier(.4,2,.6,1);
+}
+.noticia-esq-active {
+    opacity: 1;
+    top: 0;
+    z-index: 2;
+    animation: slideUp 0.7s;
+}
+.noticia-dir-active {
+    opacity: 1;
+    left: 0;
+    z-index: 2;
+    animation: slideRight 0.7s;
+}
+@keyframes slideUp {
+    from { top: 40px; opacity: 0; }
+    to { top: 0; opacity: 1; }
+}
+@keyframes slideRight {
+    from { left: -40px; opacity: 0; }
+    to { left: 0; opacity: 1; }
+}
+/* Separador Plantel Sénior */
+/* Inverted polygon: base at top, tip at bottom */
+.separador-plantel {
+    width: 480px;
+    max-width: 100%;
+    background: #008000;
+    color: #fff;
+    font-size: 2rem;
+    font-family: 'Orbitron', Arial, sans-serif;
+    font-weight: 500;
+    padding: 18px 0 14px 0;
+    margin: 0 auto 32px auto;
+    position: relative;
+    clip-path: polygon(0 0, 100% 0, 92% 100%, 8% 100%);
+    letter-spacing: 1px;
+}
+@media (max-width: 600px) {
+    .separador-plantel {
+        font-size: 1.2rem;
+        padding: 10px 0 8px 0;
+        width: 95vw;
+    }
+}
+
+/* Calendário Moderno */
+.calendario-lista {
+    border-radius: 18px;
+    padding: 40px 0 32px 0;
+    margin-bottom: 40px;
+    max-width: 900px;
+}
+.calendario-mes {
+    font-family: 'Orbitron', 'Montserrat', Arial, sans-serif;
+    font-size: 2.2rem;
+    color: #bdbdbd;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-top: 36px;
+    margin-bottom: 22px;
+    text-transform: uppercase;
+    text-align: left;
+}
+.calendario-jogo {
+    margin-bottom: 22px;
+    padding-bottom: 22px;
+    border-bottom: 2px solid #ececec;
+}
+.calendario-jogo:last-child {
+    border-bottom: none;
+}
+.calendario-data {
+    font-size: 1.15rem;
+    font-weight: 700;
+    color: #222;
+    margin-bottom: 7px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.calendario-linha {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    align-items: center;
+    gap: 18px;
+    font-size: 1.22rem;
+    font-weight: 500;
+    color: #222;
+    background: #fff;
+    border-radius: 10px;
+    padding: 10px 18px;
+    box-shadow: 0 1px 4px 0 rgba(0,0,0,0.03);
+}
+.calendario-equipa {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    min-width: 160px;
+}
+.calendario-equipa-esq {
+    justify-content: flex-end;
+    text-align: right;
+}
+.calendario-equipa-dir {
+    justify-content: flex-start;
+    text-align: left;
+}
+.calendario-escudo {
+    width: 36px;
+    height: 36px;
+    object-fit: contain;
+    margin-left: 8px;
+    margin-right: 8px;
+    filter: drop-shadow(0 1px 2px rgba(0,0,0,0.08));
+}
+.calendario-resultado {
+    font-size: 1.7rem;
+    font-weight: 800;
+    color: #111;
+    min-width: 90px;
+    text-align: center;
+    letter-spacing: 1px;
+    justify-self: center;
+}
+@media (max-width: 700px) {
+    .calendario-lista {
+        padding: 14px 0 6px 0;
+    }
+    .calendario-mes {
+        font-size: 1.1rem;
+        margin-top: 14px;
+        margin-bottom: 8px;
+    }
+    .calendario-jogo {
+        margin-bottom: 8px;
+        padding-bottom: 8px;
+    }
+    .calendario-data {
+        font-size: 0.92rem;
+    }
+    .calendario-linha {
+        font-size: 0.98rem;
+        gap: 4px;
+        padding: 6px 4px;
+        grid-template-columns: 1fr auto 1fr;
+    }
+    .calendario-equipa {
+        font-size: 0.92rem;
+        min-width: 80px;
+    }
+    .calendario-escudo {
+        width: 20px;
+        height: 20px;
+        margin-left: 3px;
+        margin-right: 3px;
+    }
+    .calendario-resultado {
+        font-size: 1.05rem;
+        min-width: 38px;
+    }
+}
+
+/* Loja Oficial - Cards e Destaques */
+.loja-wrapper h1 {
+    letter-spacing: 1px;
+    font-family: 'Orbitron', 'Montserrat', Arial, sans-serif;
+    color: #008000;
+    text-shadow: 0 2px 8px rgba(0,128,0,0.08);
+}
+.loja-card {
+    border-radius: 18px;
+    overflow: hidden;
+    transition: transform 0.18s, box-shadow 0.18s;
+    box-shadow: 0 2px 16px 0 rgba(0,128,0,0.07);
+    border: 2px solid #f3f3f3;
+    
+    position: relative;
+}
+.loja-card:hover {
+    transform: translateY(-7px) scale(1.03);
+    box-shadow: 0 8px 32px 0 rgba(0,128,0,0.13);
+    border-color: #b6f2b6;
+    z-index: 2;
+}
+.loja-card .card-img-top {
+    object-fit: cover;
+    border-bottom: 2px solid #e0ffe0;
+    background: #f6fff6;
+}
+.loja-card .card-title {
+    color: #008000;
+    font-size: 1.18rem;
+    font-family: 'Montserrat', Arial, sans-serif;
+}
+.loja-card .card-text {
+    color: #222;
+    font-size: 1rem;
+}
+.loja-card .preco-badge {
+    background: #fffbe6;
+    color: #008000;
+    border-radius: 8px;
+    font-weight: 700;
+    padding: 4px 14px;
+    font-size: 1.1rem;
+    box-shadow: 0 1px 4px 0 rgba(0,0,0,0.04);
+    margin-bottom: 0.5rem;
+    display: inline-block;
+}
+.loja-card .btn-success {
+    font-size: 1.08rem;
+    padding: 0.55rem 1.3rem;
+    border-radius: 8px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    box-shadow: 0 2px 8px 0 rgba(0,128,0,0.07);
+    transition: background 0.15s, color 0.15s;
+}
+.loja-card .btn-success:hover {
+    background: #00b300;
+    color: #fff;
+}
+.loja-badge-novo {
+    position: absolute;
+    top: 18px;
+    left: 18px;
+    background: #ffe066;
+    color: #222;
+    font-size: 0.95rem;
+    font-weight: 700;
+    border-radius: 6px;
+    padding: 3px 12px;
+    box-shadow: 0 1px 4px 0 rgba(0,0,0,0.07);
+    z-index: 3;
+    letter-spacing: 0.5px;
+}
+.loja-badge-destaque {
+    position: absolute;
+    top: 18px;
+    right: 18px;
+    background: #008000;
+    color: #fff;
+    font-size: 0.95rem;
+    font-weight: 700;
+    border-radius: 6px;
+    padding: 3px 12px;
+    box-shadow: 0 1px 4px 0 rgba(0,0,0,0.07);
+    z-index: 3;
+    letter-spacing: 0.5px;
+}
+@media (max-width: 700px) {
+    .loja-card .card-img-top {
+        height: 140px;
+    }
+    .loja-wrapper h1 {
+        font-size: 1.3rem;
+    }
+}
+
+/* Página Produto */
+
+.conteudo-produto {
+    margin-top: 180px;
+}
