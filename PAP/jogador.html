@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogador | AD Sátão</title>
+    <link rel="icon" href="img/iconpage.ico" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Navbar principal -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-white border-bottom shadow-sm">
+            <div class="container-fluid">
+                <button class="btn me-2" type="button" data-bs-toggle="offcanvas" data-bs-target="#sidebarMenu" aria-controls="sidebarMenu">
+                    <span class="navbar-toggler-icon icon-green"></span>
+                </button>
+                <a class="navbar-brand mx-auto d-lg-none" href="#">
+                    <img src="img/adsatao.png" alt="Logo" width="60">
+                </a>
+                <a class="navbar-brand mx-auto d-none d-lg-block mb-1" href="./home.html">
+                    <img src="img/adsatao.png" alt="Logo" width="70">
+                </a>
+                <div class="d-flex align-items-center gap-3 ml-1">
+                    <a href="#" class="text-danger fs-4"><i class="icon-green bi bi-bag"></i></a>
+                    <a href="#" class="text-danger fs-4"><i class="icon-green bi bi-person"></i></a>
+                </div>
+            </div>
+        </nav>
+        <div class="offcanvas offcanvas-start" tabindex="-1" id="sidebarMenu" aria-labelledby="sidebarMenuLabel">
+            <div class="offcanvas-header">
+                <img src="img/adsatao.png" alt="Logo" width="60">
+                <h5 class="offcanvas-title w-100 text-center" id="sidebarMenuLabel">AD Sátão</h5>
+            </div>
+            <hr class="my-0 offcanvas-separator">
+            <div class="offcanvas-body p-0">
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item text-center"><a href="./bilhetes.html" class="text-decoration-none text-dark">Bilhetes</a></li>
+                    <li class="list-group-item text-center"><a href="./loja.html" class="text-decoration-none text-dark">Loja</a></li>
+                    <li class="list-group-item text-center"><a href="./socio.html" class="text-decoration-none text-dark">Sócios</a></li>
+                    <li class="list-group-item text-center"><a href="./clube.html" class="text-decoration-none text-dark">Clube</a></li>
+                    <li class="list-group-item text-center"><a href="./noticias.html" class="text-decoration-none text-dark">Notícias</a></li>
+                    <li class="list-group-item text-center"><a href="./calendario.html" class="text-decoration-none text-dark">Calendário</a></li>
+                    <li class="list-group-item text-center"><a href="./classificacao.html" class="text-decoration-none text-dark">Classificação</a></li>
+                    <li class="list-group-item text-center"><a href="./jogadores.html" class="text-decoration-none text-dark">Plantel</a></li>
+
+                </ul>
+            </div>
+        </div>
+        <!-- Navbar secundário -->
+        <nav class="navbar navbar-expand bg-light border-bottom">
+            <div class="container justify-content-center gap-4">
+                <a class="nav-link d-flex align-items-center gap-2" href="./bilhetes.html"><span class="fs-5 icon-green bi bi-ticket-perforated"></span> Bilhetes</a>
+                <a class="nav-link d-flex align-items-center gap-2" href="./loja.html"><span class="fs-5 icon-green bi bi-bag"></span> Loja</a>
+                <a class="nav-link d-flex align-items-center gap-2" href="./socio.html"><span class="fs-5 icon-green bi bi-person"></span> Sócios</a>
+                <a class="nav-link d-flex align-items-center gap-2" href="./clube.html"><span class="fs-5 icon-green bi bi-card-text"></span> Clube</a>
+                <a class="nav-link d-flex align-items-center gap-2" href="./noticias.html"><span class="fs-5 icon-green bi bi-newspaper"></span> Notícias</a>
+                <a class="nav-link d-flex align-items-center gap-2" href="./calendario.html"><span class="fs-5 icon-green bi bi-calendar2-date"></span> Calendário</a>
+            </div>
+        </nav>
+    </div>
+    <!-- Conteúdo principal -->
+    <div class="container mt-5 mb-5">
+        <div class="jogador-wrapper mx-auto jogador-maxwidth">
+            <div class="row g-5 align-items-center">
+                <!-- Foto e número -->
+                <div class="col-md-5 text-center">
+                    <div class="bg-white rounded-4 shadow-sm p-4 mb-3 position-relative jogador-foto-box">
+                        <span class="badge bg-success position-absolute top-0 start-0 m-3 fs-6 px-3 py-2">Titular</span>
+                        <img src="img/jogadores/diogo1.jpg" alt="Nome do Jogador" class="img-fluid rounded-3 border border-3 border-success jogador-img-cover">
+                        <div class="display-4 fw-bold text-success mt-3">1</div>
+                    </div>
+                </div>
+                <!-- Dados principais -->
+                <div class="col-md-7">
+                    <h2 class="fw-bold mb-1 jogador-title">Diogo Ribeiro</h2>
+                    <div class="mb-2 text-secondary fs-5">GUARDA-REDES</div>
+                    <div class="mb-3">
+                        <span class="badge bg-warning text-dark me-2">Portugal</span>
+                        <span class="badge bg-light text-success border border-success">22 anos</span>
+                    </div>
+                    <p class="mb-3 text-muted">Diogo Ribeiro é um dos pilares da baliza da AD Sátão, conhecido pela sua agilidade, reflexos rápidos e capacidade de liderança em campo.</p>
+                    <ul class="list-group list-group-flush mb-3">
+                        <li class="list-group-item bg-transparent px-0"><b>Altura:</b> 1,89m</li>
+                        <li class="list-group-item bg-transparent px-0"><b>Pé preferido:</b> Direito</li>
+                        <li class="list-group-item bg-transparent px-0"><b>Jogos em 24/25:</b> 29</li>
+                        <li class="list-group-item bg-transparent px-0"><b>Golos em 24/25:</b> 0</li>
+                        <li class="list-group-item bg-transparent px-0"><b>Assistências em 24/25:</b> 1</li>
+                    </ul>
+                </div>
+            </div>
+            <!-- Carreira e estatísticas -->
+            <div class="row mt-5">
+                <div class="col-lg-10 mx-auto">
+                    <div class="bg-white rounded-4 shadow-sm p-4 mb-4">
+                        <h5 class="fw-bold mb-3">Carreira</h5>
+                        <ul class="mb-0">
+                            <li>2024-25: AD Sátão</li>
+                            <li>2023-24: Os Ceireiros</li>
+                            <li>2022-23: GDC Roriz</li>
+                            <li>2020-22: AD Sátão</li>
+                        </ul>
+                    </div>
+                    <div class="bg-white rounded-4 shadow-sm p-4 mb-4">
+                        <h5 class="fw-bold mb-3">Estatísticas 24/25</h5>
+                        <div class="row text-center">
+                            <div class="col-6 col-md-3 mb-3">
+                                <div class="fs-2 fw-bold text-success">29</div>
+                                <div class="text-muted">Jogos</div>
+                            </div>
+                            <div class="col-6 col-md-3 mb-3">
+                                <div class="fs-2 fw-bold text-success">0</div>
+                                <div class="text-muted">Golos</div>
+                            </div>
+                            <div class="col-6 col-md-3 mb-3">
+                                <div class="fs-2 fw-bold text-success">1</div>
+                                <div class="text-muted">Assistências</div>
+                            </div>
+                            <div class="col-6 col-md-3 mb-3">
+                                <div class="fs-2 fw-bold text-success">3</div>
+                                <div class="text-muted">Cartões Amarelos</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Rodapé -->
+    <footer class="footer-adsatao mt-0 pt-4 pb-2">
+        <div class="container">
+            <div class="footer-links text-center">
+                <a href="./noticias.html" class="footer-link">NOTÍCIAS</a>
+                <span class="footer-sep">-</span>
+                <a href="./clube.html" class="footer-link">CLUBE</a>
+                <span class="footer-sep">-</span>
+                <a href="./jogadores.html" class="footer-link">EQUIPA</a>
+                <span class="footer-sep">-</span>
+                <a href="./calendario.html" class="footer-link">CALENDARIO</a>
+                <span class="footer-sep">-</span>
+                <a href="./bilhetes.html" class="footer-link">BILHETES</a>
+                <span class="footer-sep">-</span>
+                <a href="./loja.html" class="footer-link">LOJA</a>
+                <span class="footer-sep">-</span>
+                <a href="https://www.youtube.com/channel/UC5HgBWXupHYY1-hCqgPybcg" class="footer-link">SÁTÃO TV</a>
+            </div>
+            <div class="footer-social text-center">
+                <a href="https://www.facebook.com/ADSatao" class="footer-social-link"><i class="bi bi-facebook"></i></a>
+                <a href="https://www.youtube.com/channel/UC5HgBWXupHYY1-hCqgPybcg" class="footer-social-link"><i class="bi bi-youtube"></i></a>
+                <a href="https://www.instagram.com/adsatao/" class="footer-social-link"><i class="bi bi-instagram"></i></a>
+
+            </div>
+            <div class="footer-copy text-center mt-3">
+                <small>© 2025 AthelixWeb - TODOS OS DIREITOS RESERVADOS. <a href="./termos.html" class="footer-link">TERMOS E CONDIÇÕES</a> - <a href="./politica.html" class="footer-link">POLÍTICA DE PRIVACIDADE</a></small>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

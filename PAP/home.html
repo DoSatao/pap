@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AD Sátão</title>
+    <link rel="icon" href="img/iconpage.ico" type="image/x-icon">
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+    <!-- NAVBAR -->
+    <div class="container">
+        <!-- Navbar principal -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-white border-bottom shadow-sm">
+            <div class="container-fluid">
+                <button class="btn me-2" type="button" data-bs-toggle="offcanvas" data-bs-target="#sidebarMenu" aria-controls="sidebarMenu">
+                    <span class="navbar-toggler-icon icon-green"></span>
+                </button>
+                <a class="navbar-brand mx-auto d-lg-none" href="#">
+                    <img src="img/adsatao.png" alt="Logo" width="60">
+                </a>
+                <a class="navbar-brand mx-auto d-none d-lg-block mb-1" href="./home.html">
+                    <img src="img/adsatao.png" alt="Logo" width="70">
+                </a>
+                <div class="d-flex align-items-center gap-3 ml-1">
+                    <a href="#" class="text-danger fs-4"><i class="icon-green bi bi-bag"></i></a>
+                    <a href="#" class="text-danger fs-4"><i class="icon-green bi bi-person"></i></a>
+                </div>
+            </div>
+        </nav>
+        <div class="offcanvas offcanvas-start" tabindex="-1" id="sidebarMenu" aria-labelledby="sidebarMenuLabel">
+            <div class="offcanvas-header">
+                <img src="img/adsatao.png" alt="Logo" width="60">
+                <h5 class="offcanvas-title w-100 text-center" id="sidebarMenuLabel">AD Sátão</h5>
+            </div>
+            <!-- Linha separadora do offcanvas -->
+            <hr class="my-0 offcanvas-separator">
+            <div class="offcanvas-body p-0">
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item text-center"><a href="./bilhetes.html" class="text-decoration-none text-dark">Bilhetes</a></li>
+                    <li class="list-group-item text-center"><a href="./loja.html" class="text-decoration-none text-dark">Loja</a></li>
+                    <li class="list-group-item text-center"><a href="./socio.html" class="text-decoration-none text-dark">Sócios</a></li>
+                    <li class="list-group-item text-center"><a href="./clube.html" class="text-decoration-none text-dark">Clube</a></li>
+                    <li class="list-group-item text-center"><a href="./noticias.html" class="text-decoration-none text-dark">Notícias</a></li>
+                    <li class="list-group-item text-center"><a href="./calendario.html" class="text-decoration-none text-dark">Calendário</a></li>
+                    <li class="list-group-item text-center"><a href="./classificacao.html" class="text-decoration-none text-dark">Classificação</a></li>
+                    <li class="list-group-item text-center"><a href="./jogadores.html" class="text-decoration-none text-dark">Plantel</a></li>
+                </ul>
+            </div>
+        </div>
+        <!-- Navbar secundário -->
+        <nav class="navbar navbar-expand bg-light border-bottom">
+            <div class="container justify-content-center gap-4">
+                <a class="nav-link d-flex align-items-center gap-2" href="./bilhetes.html"><span class="fs-5 icon-green bi bi-ticket-perforated"></span> Bilhetes</a>
+                <a class="nav-link d-flex align-items-center gap-2" href="./loja.html"><span class="fs-5 icon-green bi bi-bag"></span> Loja</a>
+                <a class="nav-link d-flex align-items-center gap-2" href="./socio.html"><span class="fs-5 icon-green bi bi-person"></span> Sócios</a>
+                <a class="nav-link d-flex align-items-center gap-2" href="./clube.html"><span class="fs-5 icon-green bi bi-card-text"></span> Clube</a>
+                <a class="nav-link d-flex align-items-center gap-2" href="./noticias.html"><span class="fs-5 icon-green bi bi-newspaper"></span> Notícias</a>
+                <a class="nav-link d-flex align-items-center gap-2" href="./calendario.html"><span class="fs-5 icon-green bi bi-calendar2-date"></span> Calendário</a>
+            </div>
+        </nav>
+    </div>
+
+    <!-- CONTEÚDO PRINCIPAL -->
+    <div class="container">
+        <div class="text-slider">
+            <div>Acompanha todas as novidades da nossa Associação nas redes sociais!</div>
+            <div>Novo Manto Sagrado - Adequire já o teu na <a href="./loja.html" class="text-dark">Loja</a></div>
+            <div>Mantem-te sempre atualizado! Vê as novidades nas <a href="./noticias.html" class="text-dark">noticias</a></div>
+        </div>
+        <div class="row my-4 noticias-section">
+            <div class="col-md-6 d-flex flex-column align-items-stretch justify-content-start">
+                <!-- Lista de notícias à esquerda -->
+                <div class="noticias-list position-relative overflow-hidden noticias-list-height">
+                    <div class="noticia-esq noticia-esq-active">
+                        <div class="noticia-img-wrapper">
+                            <img src="img/noticias/honra.jpg" class="img-fluid w-100 h-100 object-fit-cover" alt="Notícia 1">
+                            <div class="noticia-overlay">
+                                <h4 class="mb-2">AD Sátão vence e sobe na classificação</h4>
+                                <p class="mb-0">A equipa sénior da AD Sátão conquistou uma importante vitória no último fim de semana, subindo para o 3º lugar do campeonato.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="noticia-esq">
+                        <div class="noticia-img-wrapper">
+                            <img src="img/noticias/pesar.jpg" class="img-fluid w-100 h-100 object-fit-cover" alt="Notícia 2">
+                            <div class="noticia-overlay">
+                                <h4 class="mb-2">AD Sátão presta homenagem a atleta</h4>
+                                <p class="mb-0">A AD Sátão homenageou um dos seus atletas mais antigos pelo seu contributo ao longo dos anos após o seu falecimento.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="noticia-esq">
+                        <div class="noticia-img-wrapper">
+                            <img src="img/noticias/miscarocup.jpg" class="img-fluid w-100 h-100 object-fit-cover" alt="Notícia 3">
+                            <div class="noticia-overlay">
+                                <h4 class="mb-2">Realização da primeira edição da Miscarocup</h4>
+                                <p class="mb-0">A primeira edição da Miscarocup foi um sucesso, reunindo equipas de várias localidades.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 d-flex align-items-stretch justify-content-end">
+                <!-- Carrossel de notícias à direita -->
+                <div class="noticias-carousel position-relative overflow-hidden w-100 noticias-list-height">
+                    <div class="noticia-dir noticia-dir-active">
+                        <div class="noticia-img-wrapper">
+                            <img src="img/noticias/novidades.jpg" class="img-fluid w-100 h-100 object-fit-cover" alt="Notícia 1">
+                            <div class="noticia-overlay">
+                                <h4 class="mb-2">Plantel sénior reforçado para 2025/26</h4>
+                                <p class="mb-0">A direção anunciou a contratação de três novos jogadores para reforçar o plantel sénior na próxima época desportiva.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="noticia-dir">
+                        <div class="noticia-img-wrapper">
+                            <img src="img/noticias/sub18.jpg" class="img-fluid w-100 h-100 object-fit-cover" alt="Notícia 2">
+                            <div class="noticia-overlay">
+                                <h4 class="mb-2">Sub-18 da AD Sátão conquistou a taça de ouro no passado fim de semana</h4>
+                                <p class="mb-0">A equipa sub-18 da AD Sátão sagrou-se campeã da taça de ouro após uma excelente temporada.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="noticia-dir">
+                        <div class="noticia-img-wrapper">
+                            <img src="img/noticias/taçafairplay.jpg" class="img-fluid w-100 h-100 object-fit-cover" alt="Notícia 3">
+                            <div class="noticia-overlay">
+                                <h4 class="mb-2">AD Sátão recebe taça fair play</h4>
+                                <p class="mb-0">A AD Sátão foi premiada com a taça fair play pela sua conduta exemplar durante a temporada.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Próximos Jogos e Classificação -->
+        <div class="row mt-3 mb-4 row-custom-bg-radius">
+            <div class="col-12">
+                <h2 class="fw-bold mb-4 mt-3 equipa-principal-title">EQUIPA PRINCIPAL</h2>
+            </div>
+            <div class="col-lg-9 col-md-8 col-12 d-flex flex-wrap gap-3">
+                <!-- Jogo 1 -->
+                <div class="bg-white p-3 rounded shadow-sm flex-fill jogo-card">
+                    <div class="text-center mb-2">
+                        <span class="badge bg-light text-dark mb-2 badge-custom">AFV 1ªDivisão Ap. Campeão</span><br>
+                        <span class="jogo-data">DOM. 18 MAI 2025 - 16:00</span>
+                    </div>
+                    <div class="d-flex justify-content-center align-items-center mb-2 jogo-equipas">
+                        <img src="https://www.zerozero.pt/img/logos/equipas/3651_imgbank.png" alt="AD Sátão" class="jogo-img-equipa">
+                        <span class="fw-bold fs-3"> 2 VS 1 </span>
+                        <img src="https://www.zerozero.pt/img/logos/equipas/11043_imgbank.png" alt="Vila Chã" class="jogo-img-equipa">
+                    </div>
+                    <div class="text-center mb-2 jogo-equipas-nomes">
+                        <div>AD Sátão</div>
+                        <div>Vila Chã de Sá</div>
+                    </div>
+                    <button class="btn w-100 btn-bilhetes-disabled">BILHETES</button>
+                </div>
+                <!-- Jogo 2 -->
+                <div class="bg-white p-3 rounded shadow-sm flex-fill jogo-card">
+                    <div class="text-center mb-2">
+                        <span class="badge bg-light text-dark mb-2 badge-custom">AFV 1ªDivisão Ap. Campeão</span><br>
+                        <span class="jogo-data">DOM. 11 MAI 2025 - 17:00</span>
+                    </div>
+                    <div class="d-flex justify-content-center align-items-center mb-2 jogo-equipas">
+                        <img src="https://www.zerozero.pt/img/logos/equipas/6291_imgbank_1699373510.png" alt="Tarouquense" class="jogo-img-equipa">
+                        <span class="fw-bold fs-3"> 2 VS 1 </span>
+                        <img src="https://www.zerozero.pt/img/logos/equipas/3651_imgbank.png" alt="AD Sátão" class="jogo-img-equipa">
+                    </div>
+                    <div class="text-center mb-2 jogo-equipas-nomes">
+                        <div>Tarouquense</div>
+                        <div>AD Sátão</div>
+                    </div>
+                    <button class="btn w-100 btn-bilhetes-disabled">BILHETES</button>
+                </div>
+                <!-- Jogo 3 -->
+                <div class="bg-white p-3 rounded shadow-sm flex-fill jogo-card">
+                    <div class="text-center mb-2">
+                        <span class="badge bg-light text-dark mb-2 badge-custom">AFV 1ªDivisão Ap. Campeão</span><br>
+                        <span class="jogo-data">DOM. 04 MAI 2025 - 16:00</span>
+                    </div>
+                    <div class="d-flex justify-content-center align-items-center mb-2 jogo-equipas">
+                        <img src="https://www.zerozero.pt/img/logos/equipas/3651_imgbank.png" alt="AD Sátão" class="jogo-img-equipa">
+                        <span class="fw-bold fs-3"> 1 VS 0 </span>
+                        <img src="https://www.zerozero.pt/img/logos/equipas/10280_imgbank.png" alt="GD Parada" class="jogo-img-equipa">
+                    </div>
+                    <div class="text-center mb-2 jogo-equipas-nomes">
+                        <div>AD Sátão</div>
+                        <div>GD Parada</div>
+                    </div>
+                    <button class="btn w-100 btn-bilhetes-disabled">BILHETES</button>
+                </div>
+            </div>
+            <!-- Classificação -->
+            <div class="col-lg-3 col-md-4 col-12 mt-4 mt-md-0">
+                <div class="bg-white p-3 rounded shadow-sm classificacao-card">
+                    <div class="d-flex justify-content-end mb-2 classificacao-links">
+                        <a href="./calendario.html" class="text-dark text-decoration-none classificacao-link"><i class="bi bi-calendar2-week"></i> CALENDÁRIO</a>
+                        <a href="./classificacao.html" class="text-dark text-decoration-none classificacao-link"><i class="bi bi-list-ol"></i> CLASSIFICAÇÃO</a>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item d-flex justify-content-between align-items-center border-0 py-2 classificacao-bg-transparent">
+                            <span>1º <img src="https://www.zerozero.pt/img/logos/equipas/11050_imgbank.png" alt="Vale de Açores" class="classificacao-img-mini"> Vale de Açores</span>
+                            <span class="fw-bold">29</span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center border-0 py-2 classificacao-item">
+                            <span>2º <img src="https://www.zerozero.pt/img/logos/equipas/6695_imgbank.png" alt="Campia" class="classificacao-img-mini"> Campia</span>
+                            <span class="fw-bold">27</span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center border-0 py-2 classificacao-bg-adsatao">
+                            <span>3º <img src="https://www.zerozero.pt/img/logos/equipas/3651_imgbank.png" alt="AD Sátão" class="classificacao-img-mini"> AD Sátão</span>
+                            <span class="fw-bold">25</span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center border-0 py-2 classificacao-bg-transparent">
+                            <span>4º <img src="https://www.zerozero.pt/img/logos/equipas/6694_imgbank.png" alt="Molelos" class="classificacao-img-mini"> Molelos</span>
+                            <span class="fw-bold">17</span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center border-0 py-2 classificacao-bg-transparent">
+                            <span>5º <img src="https://www.zerozero.pt/img/logos/equipas/10280_imgbank.png" alt="GD Parada" class="classificacao-img-mini"> GD Parada</span>
+                            <span class="fw-bold">17</span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center border-0 py-2 classificacao-bg-transparent">
+                            <span>6º <img src="https://www.zerozero.pt/img/logos/equipas/6291_imgbank_1699373510.png" alt="Tarouquense" class="classificacao-img-mini"> Tarouquense</span>
+                            <span class="fw-bold">17</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Secção Newsletter/Registo Email -->
+    <div class="container-fluid newsletter-bg py-5">
+        <div class="container">
+            <div class="row align-items-center justify-content-center newsletter-row">
+                <!-- Lado esquerdo: subscrição -->
+                <div class="col-lg-6 col-md-7 col-12 newsletter-left">
+                    <h2 class="newsletter-title mb-4 align-items-center">#JUNTOSPELOMÁGICO</h2>
+                    <form class="newsletter-form d-flex flex-column flex-md-row align-items-center gap-2 mb-2">
+                        <input type="email" class="form-control newsletter-input justify-content-md-start" placeholder="Escreva o seu Email" required>
+                        <button type="submit" class="btn newsletter-btn">SUBSCREVER</button>
+                    </form>
+                    <div class="form-check d-flex align-items-center mb-2">
+                        <input class="form-check-input me-2" type="checkbox" id="newsletter-termos" required>
+                        <label class="form-check-label small text-white-50" for="newsletter-termos">
+                            Ao subscrever estará a concordar com os nossos <a href="./termos.html" class="text-white text-decoration-underline">Termos e Condições</a>.
+                        </label>
+                    </div>
+                </div>
+                <!-- Lado direito: imagem -->
+                <div class="col-lg-6 col-md-5 col-12 d-flex justify-content-center newsletter-right">
+                    <img src="img/adsatao.png" alt="Jogadores AD Sátão" class="newsletter-img-side">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Secção Patrocinadores -->
+    <div class="container-fluid py-5 patrocinadores-bg">
+        <div class="container">
+            <h2 class="fw-bold mb-5 patrocinadores-title">
+                <span class="patrocinadores-bar"></span>PATROCINADORES
+            </h2>
+            <div class="row justify-content-center align-items-center mb-4 patrocinadores-row">
+                <div class="col-6 col-md-3 d-flex justify-content-center align-items-center mb-4 mb-md-0">
+                    <div class="patrocinador-img-wrapper">
+                        <img src="img/patrocina/playoff.png" alt="Patrocinador 1" class="patrocinador-img patrocinador-gray">
+                    </div>
+                </div>
+                <div class="col-6 col-md-3 d-flex justify-content-center align-items-center mb-4 mb-md-0">
+                    <div class="patrocinador-img-wrapper">
+                        <img src="img/patrocina/jamaral.png" alt="Patrocinador 2" class="patrocinador-img patrocinador-gray">
+                    </div>
+                </div>
+                <div class="col-6 col-md-3 d-flex justify-content-center align-items-center mb-4 mb-md-0">
+                    <div class="patrocinador-img-wrapper">
+                        <img src="img/patrocina/pingodoce.png" alt="Patrocinador 3" class="patrocinador-img patrocinador-gray">
+                    </div>
+                </div>
+                <div class="col-6 col-md-3 d-flex justify-content-center align-items-center mb-4 mb-md-0">
+                    <div class="patrocinador-img-wrapper">
+                        <img src="img/patrocina/inter.png" alt="Patrocinador 4" class="patrocinador-img patrocinador-gray">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- SCRIPTS -->
+    <script>
+        // Troca de notícias
+        const esq = document.querySelectorAll('.noticia-esq');
+        const dir = document.querySelectorAll('.noticia-dir');
+        let idx = 0;
+        setInterval(() => {
+            esq[idx].classList.remove('noticia-esq-active');
+            dir[idx].classList.remove('noticia-dir-active');
+            idx = (idx + 1) % esq.length;
+            esq[idx].classList.add('noticia-esq-active');
+            dir[idx].classList.add('noticia-dir-active');
+        }, 7000);
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- FOOTER -->
+    <footer class="footer-adsatao mt-0 pt-4 pb-2">
+        <div class="container">
+            <div class="footer-links text-center">
+                <a href="./noticias.html" class="footer-link">NOTÍCIAS</a>
+                <span class="footer-sep">-</span>
+                <a href="./clube.html" class="footer-link">CLUBE</a>
+                <span class="footer-sep">-</span>
+                <a href="./jogadores.html" class="footer-link">EQUIPA</a>
+                <span class="footer-sep">-</span>
+                <a href="./calendario.html" class="footer-link">CALENDARIO</a>
+                <span class="footer-sep">-</span>
+                <a href="./bilhetes.html" class="footer-link">BILHETES</a>
+                <span class="footer-sep">-</span>
+                <a href="./loja.html" class="footer-link">LOJA</a>
+                <span class="footer-sep">-</span>
+                <a href="https://www.youtube.com/channel/UC5HgBWXupHYY1-hCqgPybcg" class="footer-link">SÁTÃO TV</a>
+            </div>
+            <div class="footer-social text-center">
+                <a href="https://www.facebook.com/ADSatao" class="footer-social-link"><i class="bi bi-facebook"></i></a>
+                <a href="https://www.youtube.com/channel/UC5HgBWXupHYY1-hCqgPybcg" class="footer-social-link"><i class="bi bi-youtube"></i></a>
+                <a href="https://www.instagram.com/adsatao/" class="footer-social-link"><i class="bi bi-instagram"></i></a>
+            </div>
+            <div class="footer-copy text-center mt-3">
+                <small>© 2025 AthelixWeb - TODOS OS DIREITOS RESERVADOS. <a href="./termos.html" class="footer-link">TERMOS E CONDIÇÕES</a> - <a href="./politica.html" class="footer-link">POLÍTICA DE PRIVACIDADE</a></small>
+            </div>
+        </div>
+    </footer>
+</body>
